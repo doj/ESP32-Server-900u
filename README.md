@@ -1,3 +1,6 @@
+When using a ESP32-S2, the current release of the esp32 compiler with the 3.x version of the board library will produce a binary file that is too large.
+Install the esp32 version 2.0.x
+
 # ESP32 Server 9.00u
 
 <br>
