@@ -758,7 +758,6 @@ void setup() {
   }
 
   if (connectWifi && WIFI_SSID.length() > 0 && WIFI_PASS.length() > 0) {
-    WiFi.setAutoConnect(true);
     WiFi.setAutoReconnect(true);
     WiFi.hostname(WIFI_HOSTNAME);
     WiFi.begin(WIFI_SSID.c_str(), WIFI_PASS.c_str());
